@@ -2,7 +2,7 @@ const express = require('express')
 
 require('dotenv').config()
 
-const connectToDb = require('./src/config/db')
+const connectToDb = require('./src/db/Database')
 
 const port = process.env.PORT || 9090;
 const db_url = process.env.MONGO_URI;

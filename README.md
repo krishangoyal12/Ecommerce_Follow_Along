@@ -17,3 +17,7 @@ Node.js setup for backend
 Tailwind CSS configurations
 
 We also designed the front end for login page of the e-commerce application.
+
+
+***Milestone 3***: **File organizing and MongoDB**
+
