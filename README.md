@@ -25,5 +25,4 @@ Set up dedicated folders for organizing backend code effectively.
 Initialize and configure a Node.js server to handle API requests.
 Connect your application to MongoDB to store and manage data.
 Implement basic error handling to ensure your server runs smoothly.
-Update the README file to document your progress.
 
