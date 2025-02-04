@@ -28,7 +28,8 @@ Implement basic error handling to ensure your server runs smoothly.
 
 ***Milestone 4***: **Created and Configured Files**
 
-Created a User Model
-Created a User Controller
-Enable and Configure Multer
+Created a User Model: Our mentor explained how a MODEL in MVC architecture works and how it interacts with database.
+Created a User Controller: We got to know the purpose of a controller in MVC.
+Enable and Configure Multer: In the live session mentor told us what is a multer and what is it used for and how it can be configured to handle file uploads.
+
 
