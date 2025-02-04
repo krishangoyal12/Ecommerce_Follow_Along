@@ -26,3 +26,9 @@ Initialize and configure a Node.js server to handle API requests.
 Connect your application to MongoDB to store and manage data.
 Implement basic error handling to ensure your server runs smoothly.
 
+***Milestone 4***: **Created and Configured Files**
+
+Created a User Model
+Created a User Controller
+Enable and Configure Multer
+

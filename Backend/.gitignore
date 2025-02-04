@@ -1,8 +1,3 @@
-#Node Modules
 node_modules/
 
-#logs
-logs/
-
-# Environmental variables
-.env
+package-lock.json
