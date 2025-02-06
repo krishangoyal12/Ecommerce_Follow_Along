@@ -32,4 +32,9 @@ Created a User Model: Our mentor explained how a MODEL in MVC architecture works
 Created a User Controller: We got to know the purpose of a controller in MVC.
 Enable and Configure Multer: In the live session mentor told us what is a multer and what is it used for and how it can be configured to handle file uploads.
 
+***Milestone 5***: **Created Frontend UI for signup page and added the code for authentication of the inputs**
+
+In this part of the Follow Along project we made the UI (Frontend) for the sign up page of our website. This page allows the users to add their details.
+
+After the user is done with entering backend comes into play. Backend does the form validation part, it verifies whether the user has entered the details in the right format(e.g. email, minimum length)
 
