@@ -38,7 +38,7 @@ In this part of the Follow Along project we made the UI (Frontend) for the sign 
 
 After the user is done with entering backend comes into play. Backend does the form validation part, it verifies whether the user has entered the details in the right format(e.g. email, minimum length)
 
-***Milestone 6***: 
+***Milestone 6***: **Backend for Signup page and password encryption**
 
 1. Encrypt the Password Using bcrypt
 
