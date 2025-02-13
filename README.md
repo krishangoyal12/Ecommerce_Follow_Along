@@ -62,3 +62,17 @@ The complete user data should be stored securely, ensuring that sensitive inform
 During the login process, compare the entered password with the hashed version stored in the database.
 Use bcrypt to safely verify if the entered password matches the stored hash.
 
+***Milestone 7***: **Backend endpoint for user login**
+
+In this milestone we implemented the backend for our login page, which will be validating user credentials and verifying the encrypted password already stored in the database.
+
+Firstly we created an endpoint for user login to enable user to enter the credentials like email,username,password.
+
+Then retrieving the data particular user from the database.
+
+Validate the entered data using tools like `bcrypt` to hash the entered password.
+
+Compare the hashed password with the data stored in the database for authentication
+
+
+
