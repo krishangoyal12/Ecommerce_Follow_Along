@@ -72,7 +72,17 @@ Then retrieving the data particular user from the database.
 
 Validate the entered data using tools like `bcrypt` to hash the entered password.
 
-Compare the hashed password with the data stored in the database for authentication
+Compare the hashed password with the data stored in the database for authentication.
+
+
+
+***Milestone 8***: **Creating frontend for home page**
+
+In this milestone we will be creating card components for showing product cards on the home page.
+
+Then we will be implementing the functionality to display the cards dynamically.
+
+Then we will be designing overall layout of the home page.
 
 
 

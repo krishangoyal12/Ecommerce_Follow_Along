@@ -5,6 +5,7 @@ const [products, setProducts] = useState([]);
 const [loading, setLoading] = useState(true); // For loading state
 const [error, setError] = useState(null); // For error handling
 
+
 useEffect(() => {
   fetch("http://localhost:8000/api/v2/product/get-products")
     .then((res) => {
