@@ -20,6 +20,7 @@ const productSchema = new mongoose.Schema(
     price: {
       type: Number,
       required: [true, "Please provide the product price"],
+      
     },
     stock: {
       type: Number,
