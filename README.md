@@ -84,5 +84,11 @@ Then we will be implementing the functionality to display the cards dynamically.
 
 Then we will be designing overall layout of the home page.
 
+***Milestone 9***: **Creating forms**
+
+Created the form for products.
+
+This form will take multiple product images images as input.
+
 
 
