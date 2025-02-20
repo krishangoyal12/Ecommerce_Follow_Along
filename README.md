@@ -109,5 +109,29 @@ MongoDB: Database to store product and user data.
 Multer: Middleware for handling file uploads (product images).
 Mongoose: ODM for MongoDB to interact with the database.
 
+***Milestone 12***: **Creating MyProducts page**
+
+In this milestone, we are focusing on creating a "My Products" page that will display all the products added by a user, based on their email. We will achieve this by creating a backend endpoint to filter and send the products that match the user's email stored in MongoDB. On the frontend, we will dynamically display the data using the Product Card component that we created in a previous milestone.
+
+In this milestone we learnt:
+
+
+How to write an endpoint that filters products by email and sends the filtered data from MongoDB.
+
+How to fetch the filtered data in the frontend and display it dynamically using the Product Card component.
+
+**Steps followed:**
+
+Backend Development:
+
+Write an endpoint that will filter all products stored in the database by the email of the user.
+Fetch the products from MongoDB based on the email passed from the frontend.
+
+Frontend Development:
+
+Write a function to fetch all the products data by email from the backend.
+Display the fetched data dynamically using the Product Card component created earlier.
+
+
 
 
