@@ -97,4 +97,17 @@ In this milestone we learnt how to define product schema.
 Learnt how to create an end point to validate and store product details in mongodb.
 
 
+***Milestone 11***: **Creating Endpoint for interacting with Database**
+
+- Adding new products with required details such as name, description, category, price, stock, and images.
+- Fetching all products or filtering products by the user's email.
+
+The application is built with the following core components:
+
+Express.js: Framework to handle HTTP requests.
+MongoDB: Database to store product and user data.
+Multer: Middleware for handling file uploads (product images).
+Mongoose: ODM for MongoDB to interact with the database.
+
+
 
