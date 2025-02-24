@@ -134,4 +134,38 @@ Display the fetched data dynamically using the Product Card component created ea
 
 
 
+***Milestone 13***: **Edit data and auto fill**
 
+In this milestone, we implemented the ability to edit existing product details by adding an edit button to the product card and updating the backend endpoint to handle changes in MongoDB.
+
+We will go through all the changes made, one by one:
+
+1. Add Edit Button on Product Cards:
+
+- Added an "Edit" button to each product card on the frontend.
+
+- The button allows users to initiate the editing process for a specific product.
+
+2. Handle Edit Button Click:
+
+- When the user clicks on the "Edit" button, the product details are passed to a form.
+
+- The form is pre-filled with the current product details, allowing the user to edit the information.
+
+3. Create Backend Endpoint to Handle Update:
+
+- Wrote a backend API endpoint that receives the updated product data.
+
+- The endpoint performs a database query to find the specific product by its unique identifier.
+
+- Once the product is found, it updates the necessary fields in MongoDB with the new data.
+
+4. Implement Form Submission to Update Product:
+
+- Created a form submission process that sends the edited data to the backend endpoint.
+
+- The updated product details are then saved in MongoDB.
+
+5. Display Updated Information:
+
+- Once the data is successfully updated, the frontend dynamically reflects the changes in the product card without requiring a page refresh.
