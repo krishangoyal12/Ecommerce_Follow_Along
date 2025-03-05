@@ -20,7 +20,6 @@ const productSchema = new mongoose.Schema(
     price: {
       type: Number,
       required: [true, "Please provide the product price"],
-      
     },
     stock: {
       type: Number,
@@ -39,9 +38,24 @@ const productSchema = new mongoose.Schema(
       type: Date,
       default: Date.now, // Automatically set the creation date
     },
-  },
-  {
-    timestamps: true,
-  }
+    cart: [
+      {
+          productid: {
+              type: String,
+              required: [true, "Please provide the product ID"],
+              unique: true,
+          },
+          quantity: {
+              type: Number,
+              required: [true, "Please provide the quantity"],
+              min: [0, "Quantity cannot be negative"],
+          },
+      },
+  ],
+},
+{
+  timestamps: true,
+}
 );
+
 module.exports = mongoose.model("Product", productSchema);

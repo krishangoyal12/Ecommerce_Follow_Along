@@ -169,3 +169,48 @@ We will go through all the changes made, one by one:
 5. Display Updated Information:
 
 - Once the data is successfully updated, the frontend dynamically reflects the changes in the product card without requiring a page refresh.
+
+
+***Milestone 15***: **Create a Responsive Navbar Component**
+
+
+**Objective:**
+
+In this milestone, you will create a reusable navigation bar (Navbar) component that links to all pages in your application. The goal is to create a smooth, responsive navigation experience across different screen sizes, ensuring easy access to the following pages:
+
+- Home
+- My Products
+- Add Product
+- Cart
+
+**Steps:**
+
+- Create a New Navbar Component:
+
+1. Create a new React component called Nav (or any name you prefer) for the navigation bar.
+
+* Add links to the following pages: Home, My Products, Add Product, and Cart.
+* You can use React Router’s <Link /> component for client-side navigation.
+
+2. Make the Navbar Responsive:
+
+* Utilize CSS (or a CSS framework like Bootstrap or Material-UI) to ensure the navbar is responsive.
+* Use media queries to adjust the layout for smaller screens (mobile, tablet).
+* Consider using a hamburger menu for smaller screen sizes to keep the navbar compact.
+
+
+3. Add Navbar to All Pages:
+
+* Import and add the Nav component to all of the pages where you need navigation (Home, My Products, Add Product, Cart).
+* Ensure the navbar appears on top of each page and stays fixed or scrolls with the content based on your design preference.
+
+
+4. Implement Smooth Page Transitions:
+
+* Use React Router to ensure smooth page transitions between the pages linked in the navbar.
+* For better user experience, you may also want to add a smooth scroll or transition effect when navigating between pages.
+
+5. Test Across Different Devices:
+
+* Test the responsiveness of the navbar on different screen sizes to ensure it looks and behaves as expected on desktop, tablet, and mobile devices.
+* Ensure that all links are working correctly and navigation is smooth.
