@@ -7,7 +7,6 @@ const cors = require("cors");
 const product= require('./controller/product')
 const path=require('path')
 
-
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
