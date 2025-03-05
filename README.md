@@ -171,6 +171,7 @@ We will go through all the changes made, one by one:
 - Once the data is successfully updated, the frontend dynamically reflects the changes in the product card without requiring a page refresh.
 
 
+
 ***Milestone 15***: **Create a Responsive Navbar Component**
 
 
@@ -214,3 +215,56 @@ In this milestone, you will create a reusable navigation bar (Navbar) component 
 
 * Test the responsiveness of the navbar on different screen sizes to ensure it looks and behaves as expected on desktop, tablet, and mobile devices.
 * Ensure that all links are working correctly and navigation is smooth.
+=======
+***Milestone 14***: **Added Delete button**
+
+1. Frontend Implementation (UI)
+
+- Delete Button Added:
+
+A "Delete" button was added next to each product in the product list.
+The button was styled and placed for easy user interaction.
+
+- Delete Button Functionality:
+
+On clicking the "Delete" button, an event is triggered to send a DELETE request to the backend API with the product's ID.
+A confirmation prompt was added to ensure that the user intends to delete the product before performing the operation.
+
+- UX Enhancements:
+
+After a successful deletion, the product is removed from the UI in real-time without needing to reload the page.
+Error messages are displayed in case of a failure (e.g., product not found, network error).
+
+2. Backend Implementation (API)
+
+- DELETE Endpoint Created:
+
+A new DELETE route was added to the backend to handle requests for deleting products by their ID.
+
+The endpoint /api/products/:id accepts the product ID as a parameter and deletes the corresponding product from the MongoDB database.
+
+- MongoDB Query:
+
+The backend queries MongoDB using findByIdAndDelete() to find the product by its ID and remove it from the database.
+
+If the product is found, it is deleted, and a success message is returned to the frontend.
+
+If no product with the specified ID exists, a 404 error is returned to inform the user that the product was not found.
+
+- Error Handling:
+
+The backend includes proper error handling to catch any issues (e.g., invalid ID, database errors).
+Appropriate HTTP status codes (200 for success, 404 for not found, etc.) are returned based on the outcome.
+
+3. Testing
+
+- Unit Testing:
+
+Unit tests were written for the DELETE endpoint to ensure that it works as expected in various scenarios (e.g., product exists, product does not exist).
+
+Tests verify that the correct HTTP status codes are returned and that the product is actually deleted from MongoDB.
+
+- End-to-End Testing:
+
+Manual testing was performed to ensure that the delete button works correctly in the frontend and that the product is successfully removed from the database.
+
