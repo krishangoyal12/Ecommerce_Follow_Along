@@ -251,8 +251,7 @@ Style the Page:
 
 Ensure the page is visually appealing, making use of CSS to layout the product details and form elements.
 Consider adding a responsive design to make sure it works well on both desktop and mobile screens.
-=======
-=======
+
 ***Milestone 14***: **Added Delete button**
 
 1. Frontend Implementation (UI)
