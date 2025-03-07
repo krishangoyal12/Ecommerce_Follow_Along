@@ -304,3 +304,82 @@ Tests verify that the correct HTTP status codes are returned and that the produc
 
 Manual testing was performed to ensure that the delete button works correctly in the frontend and that the product is successfully removed from the database.
 
+
+***Milestone 15***: **Create a Responsive Navbar Component**
+
+
+**Objective:**
+
+In this milestone, you will create a reusable navigation bar (Navbar) component that links to all pages in your application. The goal is to create a smooth, responsive navigation experience across different screen sizes, ensuring easy access to the following pages:
+
+- Home
+- My Products
+- Add Product
+- Cart
+
+**Steps:**
+
+- Create a New Navbar Component:
+
+1. Create a new React component called Nav (or any name you prefer) for the navigation bar.
+
+* Add links to the following pages: Home, My Products, Add Product, and Cart.
+* You can use React Router’s <Link /> component for client-side navigation.
+
+2. Make the Navbar Responsive:
+
+* Utilize CSS (or a CSS framework like Bootstrap or Material-UI) to ensure the navbar is responsive.
+* Use media queries to adjust the layout for smaller screens (mobile, tablet).
+* Consider using a hamburger menu for smaller screen sizes to keep the navbar compact.
+
+
+3. Add Navbar to All Pages:
+
+* Import and add the Nav component to all of the pages where you need navigation (Home, My Products, Add Product, Cart).
+* Ensure the navbar appears on top of each page and stays fixed or scrolls with the content based on your design preference.
+
+
+4. Implement Smooth Page Transitions:
+
+* Use React Router to ensure smooth page transitions between the pages linked in the navbar.
+* For better user experience, you may also want to add a smooth scroll or transition effect when navigating between pages.
+
+5. Test Across Different Devices:
+
+* Test the responsiveness of the navbar on different screen sizes to ensure it looks and behaves as expected on desktop, tablet, and mobile devices.
+* Ensure that all links are working correctly and navigation is smooth.
+
+
+***Milestone 16***: **Create a Product Info Page**
+
+
+In this milestone, we will create a Product Info Page that displays the details of each product, allows users to choose a quantity, and includes an "Add to Cart" button.
+
+
+## Learning Goals 🎯
+
+By the end of this milestone, you will be able to:
+
+Create a new page that displays all the product data.
+Add a quantity input field and an "Add to Cart" button to each product.
+Steps for Milestone 16 📝
+
+1. Create a New Product Info Page:
+
+* Create a new React page or component to display the details of a single product.
+* The page should show key information such as the product name, description, price, and an image.
+* Add Quantity Input Field:
+
+Include an input field where users can select the quantity of the product they want to purchase.
+
+You can use a simple <input> element of type number or a custom quantity selector component.
+
+2. Add "Add to Cart" Button:
+
+- Implement a button labeled "Add to Cart".
+
+- When clicked, the button should add the selected product with the specified quantity to the cart.
+Style the Page:
+
+Ensure the page is visually appealing, making use of CSS to layout the product details and form elements.
+Consider adding a responsive design to make sure it works well on both desktop and mobile screens.
