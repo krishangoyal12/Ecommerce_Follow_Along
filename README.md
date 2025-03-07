@@ -404,3 +404,37 @@ Steps
 2. Endpoint for Storing Cart Products
 - Create an endpoint that accepts product details (via POST request).
 - Parse the received product details and add them to the user's cart in the database.
+
+***Milestone 18***: **Cart Endpoint Creation**
+
+- Overview
+
+In this milestone, the goal is to create backend functionality to handle cart operations. Specifically, you will create an endpoint to receive requests from the cart page and another to fetch all the products inside a user's cart using their email.
+
+Learning Goals
+
+
+- Create an endpoint to receive requests from the cart page.
+
+- Develop an endpoint to fetch all the products inside the cart based on the user's email.
+
+Steps
+
+1. Backend Endpoint for Cart Page
+
+- Create a backend endpoint that listens for requests from the cart page.
+
+- This endpoint will handle adding products to the user's cart or modifying existing items (e.g., updating quantity).
+
+2. Endpoint to Fetch Products in Cart
+
+- Write a backend endpoint that fetches all the products inside the user's cart.
+
+- The endpoint will query the database using the user's email to retrieve their cart's details, including product names, quantities, and prices.
+
+3. Database Handling
+
+- Ensure that product details are stored appropriately in the database and can be retrieved efficiently.
+
+- Structure the database queries so that they return the relevant cart information for the specific user based on their email.
+
