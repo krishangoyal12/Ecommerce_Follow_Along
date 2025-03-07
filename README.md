@@ -383,3 +383,24 @@ Style the Page:
 
 Ensure the page is visually appealing, making use of CSS to layout the product details and form elements.
 Consider adding a responsive design to make sure it works well on both desktop and mobile screens.
+
+***Milestone 17***: **Cart Schema and Endpoint**
+
+Overview
+
+In this milestone, we focus on adding the functionality to store products in a user's cart. This involves modifying the user schema to include cart products and creating an endpoint to receive and store product details.
+
+Learning Goals
+
+
+- Edit the user schema to incorporate a cart that stores products.
+- Write an endpoint to receive product details and store them in the database.
+
+Steps
+
+1. Cart Schema
+- Modify the user schema to include a cart field.
+- The cart field will store product details (such as product ID, name, quantity, and price).
+2. Endpoint for Storing Cart Products
+- Create an endpoint that accepts product details (via POST request).
+- Parse the received product details and add them to the user's cart in the database.
