@@ -438,3 +438,26 @@ Steps
 
 - Structure the database queries so that they return the relevant cart information for the specific user based on their email.
 
+
+***Milestone 19***: **Cart Page and Quantity Management**
+
+1. Create the Cart Frontend Page:
+
+- Display Products: Fetch the products added to the cart from the backend using the endpoint from Milestone 18.
+
+- Render Cart Items: Each item should display its name, price, quantity, and options to increase or decrease the quantity.
+
+2. Add Quantity Adjustment Options:
+
+- Add + and - buttons next to each product's quantity.
+
+- Button: When clicked, the quantity of the respective product in the cart should increase by 1.
+
+- Button: When clicked, the quantity of the respective product should decrease by 1 (ensuring the quantity does not go below 1).
+
+3. Create Backend Endpoints for Quantity Update:
+
+- Increase Quantity Endpoint: Create a backend endpoint that allows increasing the quantity of a specific product in the cart. This endpoint should take the product ID and the quantity to be added.
+
+- Decrease Quantity Endpoint: Create another backend endpoint to decrease the quantity of a specific product in the cart. This should also take the product ID and the quantity to be subtracted, ensuring the quantity doesn't drop below 1.
+
