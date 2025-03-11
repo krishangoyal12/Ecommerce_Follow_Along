@@ -18,7 +18,7 @@ const validateProductData = (data) => {
     errors.push("Valid product price is required");
   if (!data.stock || isNaN(data.stock) || Number(data.stock) < 0)
     errors.push("Valid product stock is required");
-  if (!data.email) errors.push("Email is required");
+  if (!data.email) errors.push("Email is required"); 
 
   return errors;
 };

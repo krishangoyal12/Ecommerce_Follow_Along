@@ -461,3 +461,34 @@ Steps
 
 - Decrease Quantity Endpoint: Create another backend endpoint to decrease the quantity of a specific product in the cart. This should also take the product ID and the quantity to be subtracted, ensuring the quantity doesn't drop below 1.
 
+
+
+***Milestone 20**: **User Profile Page and Backend Endpoint for Sending User Data**
+
+1. Create a Backend Endpoint to Send User Data via Email:
+
+- Implement a backend endpoint that gathers all the user data (including profile details and address information) and sends it via email.
+
+* The email should include:
+- User Profile Photo
+- Name
+- Email
+- Addresses
+
+Use a mail-sending service (e.g., Nodemailer or any email API) to send the user data to the specified recipient email.
+
+2. Create the Frontend Profile Page:
+
+* The profile page should display:
+
+- Profile Section: Show the profile photo, name, and email in one section.
+- Address Section: Show the user's addresses in a separate section.
+- If no addresses are found, display the message “No address found”.
+
+Include an "Add Address" button to allow users to add new addresses.
+
+3. User Address Management
+- The frontend should allow users to add new addresses. You can use a modal or form to input new address details.
+- Ensure proper validation of the address fields to ensure valid data is entered.
+
+
