@@ -512,4 +512,25 @@ Include an "Add Address" button to allow users to add new addresses.
 
 * Add functionality so that when the user clicks the "Add Address" button in their profile, they are navigated to the address form page.
 
+***Milestone 22***: **Backend Endpoint to Store Address in User Profile**
+
+1. Create Backend Endpoint to Receive Address:
+
+* Implement an API endpoint that will handle the POST request from the frontend address form.
+
+* The endpoint should receive the address details such as:
+
+- Country
+- City
+- Address Line 1
+- Address Line 2
+- Zip Code
+- Address Type
+
+2. Store Address Inside User Profile:
+
+- Once the address is received in the backend, add the address information to the user's profile.
+- The address should be stored as part of an address array inside the user collection in the database.
+- Ensure proper validation of the address data before saving it.
+
 
