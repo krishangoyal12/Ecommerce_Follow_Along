@@ -491,4 +491,25 @@ Include an "Add Address" button to allow users to add new addresses.
 - The frontend should allow users to add new addresses. You can use a modal or form to input new address details.
 - Ensure proper validation of the address fields to ensure valid data is entered.
 
+***Milestone 21***: **Address Form Frontend**
+
+1. Create Address Form Frontend Page:
+
+* Design and implement a form with the following fields:
+
+- Country
+- City
+- Address 1
+- Address 2
+- Zip Code
+- Address Type
+
+2. Create a State to Store the Input Address:
+
+* Set up state management (using React's useState or similar) to capture and store the user inputs for each field in the address form.
+
+3. Navigate to Address Form Page from Profile:
+
+* Add functionality so that when the user clicks the "Add Address" button in their profile, they are navigated to the address form page.
+
 
