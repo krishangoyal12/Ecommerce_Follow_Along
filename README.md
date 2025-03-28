@@ -553,3 +553,43 @@ The button should navigate the user to the "Select Address" page when clicked.
 
 4. Mongoose Schema for Storing Orders
 - Define a schema for storing order details in the database, which will include the selected address, products in the cart, total amount, and user details.
+
+***Milestone 24***: **Order Confirmation Page**
+
+In this milestone, we will create an Order Confirmation Page. This page will display all the details regarding the user's order and give them an opportunity to confirm their purchase by placing an order.
+
+Things to to in the milestone:
+
+Learn how to display products being ordered.
+
+Display the delivery address selected by the user.
+
+Show the total value of the cart.
+
+Include a Place Order button at the bottom for confirming the order.
+
+Steps to Achieve the Milestone 📝
+
+* Display Ordered Products:
+
+- List all the products in the user's cart. This will include the product name, quantity, and price.
+
+* Display Delivery Address:
+
+- Show the address selected by the user for delivery. This address will be displayed clearly to confirm where the products will be sent.
+
+* Display Total Cart Value:
+
+- Calculate and display the total cost of the products in the cart, including any applicable taxes and shipping charges.
+
+* Place Order Button:
+
+- Add a Place Order button at the bottom of the page. This button will trigger the order confirmation and proceed with the checkout process.
+
+* Expected Outcome:
+
+- Users should be able to view a clear summary of their order, including the products, delivery address, and total cost.
+
+- Users can place the order by clicking the Place Order button at the bottom.
+
+
