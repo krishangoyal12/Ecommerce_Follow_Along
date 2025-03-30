@@ -593,3 +593,48 @@ Steps to Achieve the Milestone 📝
 - Users can place the order by clicking the Place Order button at the bottom.
 
 
+***Milestone 25***: **Backend Endpoint for Placing an Order**
+
+In this milestone, you will create a backend endpoint that allows users to place orders by providing product, user, and address details. The endpoint will retrieve the user's _id based on the provided email, and for each product, a separate order will be created with the same address. The order details will be stored in the MongoDB order collection using the order schema created earlier.
+
+1. Create the Order Endpoint
+- Implement a POST endpoint to handle order creation.
+
+This endpoint will receive the following data:
+
+- products: Array of product details the user wants to order.
+
+- user: User's information (including email).
+
+- address: Address information for delivery.
+
+2. Retrieve User's _id
+- Extract the user's email from the user object in the request.
+
+- Query the database to retrieve the user's _id based on the provided email.
+
+3. Create Orders for Each Product
+For each product in the products array, create a separate order in the order collection.
+
+* Ensure the order contains:
+
+- Product details (name, price, quantity, etc.)
+
+- The user’s _id
+
+- Address details (from the request)
+
+- Order status (e.g., 'pending', 'completed')
+
+4. Store Orders in MongoDB
+- Use the order schema that you created earlier to store each order in the order collection of the MongoDB database.
+
+- Ensure that each order document is created with relevant information (product, user, address, etc.).
+
+5. Return Response
+- Return a success response with order details after storing the orders in the database.
+
+- If there are errors (e.g., invalid email, database issues), return an appropriate error response.
+
+
+
