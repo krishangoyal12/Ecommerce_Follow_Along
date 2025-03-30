@@ -637,4 +637,26 @@ For each product in the products array, create a separate order in the order col
 - If there are errors (e.g., invalid email, database issues), return an appropriate error response.
 
 
+***Milestone 26***: **Backend Endpoint for Retrieving User Orders**
+
+### Create a backend endpoint that retrieves all orders of a user based on their email address.
+
+#### Steps:
+* Endpoint Creation:
+
+- Implement an API endpoint that accepts a user’s email address.
+
+* User Identification:
+
+- Using the provided email, retrieve the corresponding user's _id from the database.
+
+* Fetch Orders:
+
+- Once the user's _id is retrieved, use it to fetch all orders associated with that user.
+
+* Response:
+
+- Send a response containing all the user’s orders.
+
+
 
