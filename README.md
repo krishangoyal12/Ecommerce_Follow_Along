@@ -658,5 +658,27 @@ For each product in the products array, create a separate order in the order col
 
 - Send a response containing all the user’s orders.
 
+***Milestone 27*** : **User Orders Page**
+
+* Objective:
+- Create a frontend page to display all user orders.
+
+* Steps Completed:
+- Created "My Orders" Page: A dedicated page to show all user orders.
+
+- API Integration: Sent a GET request to the my-orders endpoint using the user’s email to fetch all orders.
+
+- Order Display: Successfully displayed the fetched orders on the frontend in a structured format.
+
+- Navbar Update: Added a "My Orders" link in the navigation bar for easy access.
+
+* Features:
+
+- View all the user's past orders.
+
+- Dynamic fetching of orders using the user’s email.
+
+- Easy navigation through the updated navbar.
+
 
 
