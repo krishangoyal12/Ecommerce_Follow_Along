@@ -714,6 +714,20 @@ In this milestone, we are adding the ability for users to cancel an order from t
 - Ensure proper validation is in place to prevent canceling orders that are already completed or in an irreversible state.
 - UI should reflect the current status of the order (e.g., "Canceled" or "Pending").
 
+***Milestone 29***: **Payment Options Integration**
 
+**Objective:**
+- Implement payment options on the order confirmation page, including COD (Cash on Delivery) and online payment via PayPal.
 
+**Steps Completed:**
+- **Create PayPal Account:**
+  - Create a PayPal account on the PayPal Developer Dashboard.
+  - Log in and navigate to the "Sandbox Accounts" section.
+  - Copy the **UserID** of the sandbox account and save it for later use.
+  - Copy the **Client ID** from the sandbox account and save it.
 
+- **Add Payment Options:**
+  - On the order confirmation page, add two radio buttons for payment selection:
+    - **COD (Cash on Delivery)**
+    - **Online Payment** (PayPal)
+  - Display PayPal payment buttons only when the user selects the **Online Payment** option.
