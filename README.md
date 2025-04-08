@@ -680,5 +680,40 @@ For each product in the products array, create a separate order in the order col
 
 - Easy navigation through the updated navbar.
 
+***Milestone 28***: **Cancel Order Feature**
+
+* Overview
+In this milestone, we are adding the ability for users to cancel an order from their "My Orders" page. The "Cancel Order" button will only be displayed if the order has not already been canceled. Once clicked, the order status will be updated to "canceled" in the system.
+
+* Steps
+
+1. Add Cancel Order Button
+- Display a "Cancel Order" button next to each order on the "My Orders" page.
+- **Condition:** The button will only be shown if the order is not already canceled.
+
+2. Endpoint for Canceling Order
+- Create an API endpoint that will accept the `order-id` as a parameter.
+- This endpoint will:
+  - Retrieve the order using the `order-id`.
+  - Change the order's status to "canceled".
+  - Save the updated order.
+
+3. Frontend Logic
+- Ensure the "Cancel Order" button is disabled or hidden if the order status is already "canceled".
+  
+- Endpoint Details
+- **URL:** `/api/orders/{order-id}/cancel`
+- **Method:** `POST`
+- **Parameters:** 
+  - `order-id` (required): The unique identifier of the order to cancel.
+- **Response:** 
+  - Success: `{ "message": "Order canceled successfully" }`
+  - Failure: `{ "error": "Order cannot be canceled" }`
+
+4. Notes
+- Ensure proper validation is in place to prevent canceling orders that are already completed or in an irreversible state.
+- UI should reflect the current status of the order (e.g., "Canceled" or "Pending").
+
+
 
 
