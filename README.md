@@ -753,3 +753,19 @@ By the end of this milestone, you will:
    - Run the following command to install the necessary npm package:
    ```bash
    npm install @paypal/react-paypal-js
+
+
+***Milestone 31***: **Redux for Global State Management**
+
+### 🎯 Learning Goals
+By the end of this milestone, you will:
+- Learn how to use Redux for global state management.
+- Implement a Redux store to store all global states, such as the user email.
+
+### 📝 Steps for Milestone 31
+
+1. **Install Redux Dependencies:**
+   - Run the following command to install the necessary npm packages:
+   ```bash
+   npm install react-redux @reduxjs/toolkit
+
