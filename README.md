@@ -731,3 +731,25 @@ In this milestone, we are adding the ability for users to cancel an order from t
     - **COD (Cash on Delivery)**
     - **Online Payment** (PayPal)
   - Display PayPal payment buttons only when the user selects the **Online Payment** option.
+
+***Milestone 30***: **PayPal API Integration for Online Payments**
+
+### 🎯 Learning Goals
+By the end of this milestone, you will:
+- Learn how to use the PayPal API.
+- Learn how to integrate online payments into your application.
+
+### 📝 Steps for Milestone 30
+
+1. **Create PayPal Account:**
+   - Sign up for a PayPal account.
+   - Set up a Sandbox account to simulate payments.
+   - Get your **UserID** from the Sandbox account.
+
+2. **Create a PayPal Client Key:**
+   - Generate your **Client Key** inside your PayPal developer account for API access.
+
+3. **Install Required Packages:**
+   - Run the following command to install the necessary npm package:
+   ```bash
+   npm install @paypal/react-paypal-js
