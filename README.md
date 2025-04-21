@@ -782,3 +782,23 @@ In this milestone, we will integrate Redux to store the user mail in a global st
    - Use the `useSelector` hook to retrieve the stored email from the Redux state on any page.
 
 
+   ### Milestone 33: Creating and Storing JWT Token
+
+By the end of this milestone, you will:
+
+- Learn how to create a JWT token.
+- Understand how to store the token inside a cookie.
+
+#### Steps:
+
+1. **Download jsonwebtoken Package**:
+   - Install the `jsonwebtoken` package using npm.
+
+2. **Create JWT Token**:
+   - Use the `sign` method to create a JWT token with the user's email and ID.
+
+3. **Set Expiry Time**:
+   - Use `maxAge` to set the expiration time for the token.
+
+4. **Store Token in Cookie**:
+   - Add the token to the response and store it in a cookie in the browser.
