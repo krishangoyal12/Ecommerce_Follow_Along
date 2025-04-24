@@ -802,3 +802,34 @@ By the end of this milestone, you will:
 
 4. **Store Token in Cookie**:
    - Add the token to the response and store it in a cookie in the browser.
+
+
+## 🎯 Milestone 34: JWT Authentication
+
+### Learning Goals
+By the end of this milestone, you will be able to:
+- Extract a JWT token from browser cookies and send it to the server.
+- Validate the JWT token on the server.
+- Restrict access to pages for unauthenticated users.
+
+---
+
+### 📝 Steps
+
+1. **Extract JWT from Cookies**
+   - On every page, retrieve the JWT token stored in the browser cookie.
+   - Send the token to the server with each request (e.g., using headers).
+
+2. **Backend: Validate JWT**
+   - Create a middleware function that:
+     - Reads the token from the request.
+     - Verifies the token using your secret key.
+     - Rejects the request if the token is missing or invalid.
+
+3. **Protect Routes**
+   - Apply the JWT middleware to all routes/pages that require authentication.
+   - Ensure unauthenticated users are redirected to the login page.
+
+---
+
+✅ This ensures secure and consistent user authentication across your application.
